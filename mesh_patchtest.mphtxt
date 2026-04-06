@@ -1,0 +1,167 @@
+# Created by COMSOL Multiphysics.
+
+# Major & minor version
+0 1 
+1 # number of tags
+# Tags
+5 mesh1 
+1 # number of types
+# Types
+3 obj 
+
+# --------- Object 0 ----------
+
+0 0 1 
+4 Mesh # class
+8 # version
+2 # sdim
+
+# Include geometric model
+1 
+
+# Geometric model
+
+3 # Number of geometric entities per dimension
+8 
+12 
+5 
+
+1 # Voids are labeled
+
+0 # Number of finite voids
+
+12 # Up and down domains for boundaries
+0 1 
+1 2 
+0 2 
+3 1 
+0 3 
+1 4 
+2 4 
+3 4 
+5 4 
+5 3 
+2 5 
+0 5 
+
+0 # Isolated vertices in domains
+
+
+# Mesh data
+
+25 # number of mesh vertices
+
+# Mesh vertex coordinates
+0 0 
+0 9.9999999999999995e-08 
+3.3333333333333327e-08 1.6666666666666664e-08 
+1.9999999999999999e-07 0 
+6.6666666666666655e-08 6.6666666666666655e-08 
+1.9999999999999999e-07 9.9999999999999995e-08 
+1.4999999999999999e-07 2.4999999999999999e-08 
+1.3333333333333331e-07 6.6666666666666655e-08 
+0 4.9999999999999998e-08 
+1.6666666666666664e-08 8.3333333333333319e-09 
+9.9999999999999995e-08 0 
+3.3333333333333327e-08 8.3333333333333325e-08 
+9.9999999999999995e-08 9.9999999999999995e-08 
+4.9999999999999991e-08 4.1666666666666656e-08 
+9.1666666666666654e-08 2.0833333333333331e-08 
+9.9999999999999982e-08 6.6666666666666655e-08 
+1.4166666666666665e-07 4.5833333333333327e-08 
+1.6666666666666665e-07 8.3333333333333325e-08 
+1.7499999999999999e-07 1.2499999999999999e-08 
+1.9999999999999999e-07 4.9999999999999998e-08 
+2.4999999999999996e-08 4.5833333333333327e-08 
+9.5833333333333325e-08 1.0416666666666666e-08 
+9.9999999999999995e-08 8.3333333333333325e-08 
+9.5833333333333325e-08 4.3749999999999991e-08 
+1.7083333333333332e-07 4.7916666666666662e-08 
+
+3 # number of element types
+
+# Type #0
+
+3 vtx # type name
+
+
+1 # number of vertices per element
+8 # number of elements
+# Elements
+0 
+1 
+2 
+3 
+4 
+5 
+6 
+7 
+
+8 # number of geometric entity indices
+# Geometric entity indices
+0 
+1 
+2 
+6 
+3 
+7 
+5 
+4 
+
+# Type #1
+
+4 edg2 # type name
+
+
+3 # number of vertices per element
+12 # number of elements
+# Elements
+0 1 8 
+0 2 9 
+3 0 10 
+1 4 11 
+2 4 13 
+1 5 12 
+5 3 19 
+6 2 14 
+3 6 18 
+4 7 15 
+7 6 16 
+5 7 17 
+
+12 # number of geometric entity indices
+# Geometric entity indices
+0 
+1 
+2 
+3 
+5 
+4 
+11 
+6 
+10 
+7 
+8 
+9 
+
+# Type #2
+
+5 quad2 # type name
+
+
+9 # number of vertices per element
+5 # number of elements
+# Elements
+2 4 0 1 13 9 20 11 8 
+2 0 6 3 9 14 21 10 18 
+4 7 1 5 15 11 22 17 12 
+4 2 7 6 13 15 23 14 16 
+6 3 7 5 18 16 24 19 17 
+
+5 # number of geometric entity indices
+# Geometric entity indices
+1 
+2 
+3 
+4 
+5 
